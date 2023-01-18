@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #171424, #282347, #39336e, #4a4397, #5c54c2, #5c54c2, #5c54c2, #5c54c2, #4a4397, #39336e, #282347, #171424);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+/* MainPage CSS */
+#timeDatePage {
+  margin: 8rem auto;
+}
+
+p#time, p#time1{
+  margin: 1.5rem auto;
+  font-weight: bolder;
+  font-size: 150px;
+}
+
+p#date {
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+#option {
+  margin-top: 3rem;
+}
+
+button {
+  font-size: large;
+  background-color: transparent;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: solid 1px;
+  transition: 0.3s;
+  transition-timing-function: ease-in;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+  box-shadow: 0 10px 10px 0 rgb(39, 24, 61);
+  border-color: #5c54c2;
+  background-color:#6f5fed;
+  font-weight: 600;
+}
+
+#ms {
+  font-size: 70px;
+}
+
+#start:hover {
+  background-color: #6b942d;
+}
+
+#stop:hover {
+  background-color:#9d4b45;
+}
+
+#reset:hover {
+  background-color:#403775;
+}
+
+.stopwatchPage {
+  margin: 7rem auto;
+}
+
